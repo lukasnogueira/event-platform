@@ -3,7 +3,7 @@ import { Lesson } from "./Lesson";
 
 const GET_LESSONS_QUERY = gql`
     query {
-        lessons(orderBy: publishedAt_ASC, stage: PUBLISHED) {
+        lessons(orderBy: availableAt_ASC, stage: PUBLISHED) {
             id
             slug
             title
