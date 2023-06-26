@@ -1,8 +1,8 @@
-import { useGetLessonsQueryQuery } from "../graphQL/generation.ts/graphql";
+import { useGetLessonsQuery } from "../graphQL/generation.ts/graphql";
 import { Lesson } from "./Lesson";
 
 export function Sidebar() {
-    const { data } =  useGetLessonsQueryQuery()
+    const { data } =  useGetLessonsQuery()
 
     return (
         <aside className="w-[348px] bg-gray-700 border-l p-6 border-gray-600 ">
