@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        blur: 'url(/src/assets/blur-Bg.png)'
+        blur: 'url(src/assets/blur-Bg.png)'
       },
       fontFamily: {
         sans: 'Roboto, sans-serif'
