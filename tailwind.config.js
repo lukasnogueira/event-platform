@@ -7,7 +7,6 @@ export default {
     extend: {
       backgroundImage:{
         blur: 'url(public/assets/blur-Bg.png)',
-        react: 'url(public/assets/ReactJS icon.svg)'
       },
       fontFamily: {
         sans: 'Roboto, sans-serif'

@@ -30,7 +30,7 @@ export function Subscribe() {
 
     return (
         <div className="min-h-screen bg-blur bg-no-repeat bg-cover flex flex-col items-center">
-            <img src="public\assets\ReactJS icon.svg" className="fixed" alt="" />
+            <img src="\assets\ReactJS icon.svg" className="fixed" alt="" />
             <div className="w-full
              max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
                 <div className="max-w-[640px]">
@@ -75,7 +75,7 @@ export function Subscribe() {
                 </div>
 
             </div>
-            <img src="public\assets\mocap-img.png" className="mt-10" alt="" />
+            <img src="\assets\mocap-img.png" className="mt-10" alt="" />
         </div>
     )
 }
